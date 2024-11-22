@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/luciano-ferretto/ParadLingProg_202402_TurmaC
+          uri: https://github.com/MarcosBristot/micro-services-main
           default-label: main
           search-paths:
           - 'microservices/configs/{application}'

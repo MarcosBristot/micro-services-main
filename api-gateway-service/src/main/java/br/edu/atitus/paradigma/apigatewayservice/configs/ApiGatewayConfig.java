@@ -13,7 +13,7 @@ public class ApiGatewayConfig {
                 .route(rota -> rota
                         .path("/get")
                         .filters(f -> f
-                                .addRequestHeader("Usuario","Ciclano")
+                                .addRequestHeader("Usuario","Marcos Bristot")
                                 .addResponseHeader("Usuario","Marcos Bristot"))
                         .uri("http://httpbin.org"))
                 .route(rota -> rota
